@@ -1,0 +1,31 @@
+
+======================================
+Traceback (most recent call last):
+  File "D:\FozilbekAI_TelegramBot\bot.py", line 921, in <module>
+    main()
+  File "D:\FozilbekAI_TelegramBot\bot.py", line 823, in main
+    print(
+  File "C:\Users\Student 01\AppData\Local\Programs\Python\Python311\Lib\encodings\cp1251.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f30c' in position 6: character maps to <undefined>
+Traceback (most recent call last):
+  File "D:\FozilbekAI_TelegramBot\bot.py", line 6, in <module>
+    import requests
+  File "C:\Users\Student 01\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\__init__.py", line 45, in <module>
+    import urllib3
+  File "C:\Users\Student 01\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\__init__.py", line 18, in <module>
+    from .connectionpool import HTTPConnectionPool, HTTPSConnectionPool, connection_from_url
+  File "C:\Users\Student 01\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 15, in <module>
+  File "C:\Users\Student 01\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\_request_methods.py", line 10, in <module>
+    from .response import BaseHTTPResponse
+  File "C:\Users\Student 01\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\response.py", line 31, in <module>
+    from .connection import BaseSSLError, HTTPConnection, HTTPException
+  File "C:\Users\Student 01\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 24, in <module>
+object address  : 0000013F536CCDC0
+object refcount : 2
+object type     : 00007FF8793F5FB0
+object type name: KeyboardInterrupt
+object repr     : KeyboardInterrupt()
+lost sys.stderr
+^C
